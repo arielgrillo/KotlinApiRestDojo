@@ -1,0 +1,9 @@
+DROP TABLE persona
+CREATE TABLE persona (
+	id int not null identity(1,1),
+	dni int,
+	nombre nvarchar(50),
+	apellido nvarchar(50),
+	fechaNac date,
+	PRIMARY KEY (id)
+)
