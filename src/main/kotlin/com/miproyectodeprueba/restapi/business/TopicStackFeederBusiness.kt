@@ -25,8 +25,14 @@ class TopicStackFeederBusiness: ITopicStackFeederBusiness {
         TODO("Not yet implemented")
     }
 
+    @Throws(BusinessException::class)
     override fun save(topicStackFeeder: TopicStackFeeder): TopicStackFeeder {
-        TODO("Not yet implemented")
+        try {
+            return topicStackFeederRepository!!.save(topicStackFeeder)
+        } catch (e: Exception) {
+            throw BusinessException(e.message)
+        }
+
     }
 
     override fun remove(idTopicStackFeeder: Int) {
