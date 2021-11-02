@@ -30,6 +30,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.51")
 	implementation("com.github.javafaker:javafaker:0.15")
 	implementation("org.apache.kafka:kafka-clients:2.0.0")
+	implementation("com.microsoft.sqlserver:mssql-jdbc")
 }
 
 tasks.withType<KotlinCompile> {
