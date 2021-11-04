@@ -1,4 +1,6 @@
 # KotlinApiRestDojo
+## Fuente
+https://www.youtube.com/playlist?list=PL_963TKBW5HDncZWqi51gtK2Y8Cv-aHmb
 Dojo sobre api rest en kotlin
 También hay kafka publisher
 ## Imagen para ms sql server 2019
